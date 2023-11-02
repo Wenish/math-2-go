@@ -7,14 +7,14 @@ import (
 
 func term1(x float64) {
 	fmt.Println("- Input x:", x)
-	var result = math.Pow(1+x, 4)
+	var result = math.Pow(1.0+x, 4.0)
 	fmt.Println("- Resultat:", result)
 	fmt.Println()
 }
 
 func term2(x float64) {
 	fmt.Println("- Input x:", x)
-	var result = (math.Pow(x, 3) - math.Pow(3*x, 2) + (3 * x) - 1)
+	var result = (math.Pow(x, 3.0) - math.Pow(3.0*x, 2.0) + (3.0 * x) - 1.0)
 	fmt.Println("- Resultat:", result)
 	fmt.Println()
 }
@@ -28,7 +28,7 @@ func term3(x float64) {
 
 func term4(x float64) {
 	fmt.Println("- Input x:", x)
-	var result = math.Sqrt(x) / math.Pow(x+1, 2)
+	var result = math.Sqrt(x) / math.Pow(x+1.0, 2.0)
 	fmt.Println("- Resultat:", result)
 	fmt.Println()
 }
@@ -41,7 +41,7 @@ func term5(x float64) {
 }
 
 func PrintTerme() {
-	var values = [5]float64{-2, 0.5, 1, 2, 4}
+	var values = [5]float64{-2, 1.0 / 2.0, 1, 2, 4}
 	fmt.Println("-------------------------------------------")
 	fmt.Println("1 Terme")
 	fmt.Println("Werte welche für x eingesetzt werden:")
