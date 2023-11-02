@@ -6,6 +6,9 @@ import (
 )
 
 func main() {
-	fmt.Println("Math 2 Go start up")
+	fmt.Println("   ~~~~ ____   |~~~~~~~~~~~~~|   |~~~~~~~~~~~~~|")
+	fmt.Println("  Y_,___|[]|   |   Math2Go   |   |   Jonas V   |")
+	fmt.Println(" {|_|_|_|PU|_,_|_____________|_,_|_____________|")
+	fmt.Println("//oo---OO=OO     OOO     OOO      OOO     OOO  ")
 	one.PrintTerme()
 }

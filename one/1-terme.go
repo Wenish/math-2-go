@@ -13,27 +13,28 @@ func term1(x float64) {
 }
 
 func term2(x float64) {
-	fmt.Println(x)
+	fmt.Println("- Input x:", x)
 }
 
 func term3(x float64) {
-	fmt.Println(x)
+	fmt.Println("- Input x:", x)
 }
 
 func term4(x float64) {
-	fmt.Println(x)
+	fmt.Println("- Input x:", x)
 }
 
 func term5(x float64) {
-	fmt.Println(x)
+	fmt.Println("- Input x:", x)
 }
 
 func term6(x float64) {
-	fmt.Println(x)
+	fmt.Println("- Input x:", x)
 }
 
 func PrintTerme() {
 	var values = [5]float64{-2, 0.5, 1, 2, 4}
+	fmt.Println("-------------------------------------------")
 	fmt.Println("1 Terme")
 	fmt.Println("Werte welche für x eingesetzt werden:")
 	fmt.Println(values)
@@ -49,4 +50,5 @@ func PrintTerme() {
 	fmt.Println("4. Term")
 
 	fmt.Println("5. Term")
+	fmt.Println("-------------------------------------------")
 }
