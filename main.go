@@ -7,5 +7,5 @@ import (
 
 func main() {
 	fmt.Println("Math 2 Go start up")
-	one.TermePrint()
+	one.PrintTerme()
 }
