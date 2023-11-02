@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println("hello world!")
-	one.Print()
-	one.Print2()
+	fmt.Println("Math 2 Go start up")
+	one.TermePrint()
 }
