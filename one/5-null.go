@@ -20,5 +20,6 @@ func printNull() {
 
 	var resultTry1024 = 1.0 / math.Pow(2.0, float64(1024))
 	fmt.Println(1024, "try:", resultTry1024, ">", 0, resultTry1024 > 0)
+	fmt.Println("Bei der 1024. teilung ist das resultat false")
 	fmt.Println("-------------------------------------------")
 }
