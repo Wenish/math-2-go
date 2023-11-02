@@ -11,4 +11,5 @@ func main() {
 	fmt.Println(" {|_|_|_|PU|_,_|_____________|_,_|_____________|")
 	fmt.Println("//oo---OO=OO     OOO     OOO      OOO     OOO  ")
 	one.PrintTerme()
+	one.PrintIeee754()
 }
