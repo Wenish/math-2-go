@@ -6,4 +6,5 @@ func Print() {
 	printWurzeln()
 	printAssoziativ()
 	printNull()
+	printMathPi()
 }
