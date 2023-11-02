@@ -14,6 +14,9 @@ func term1(x float64) {
 
 func term2(x float64) {
 	fmt.Println("- Input x:", x)
+	var result = (math.Pow(x, 3) - math.Pow(3*x, 2) + (3 * x) - 1)
+	fmt.Println("- Resultat:", result)
+	fmt.Println()
 }
 
 func term3(x float64) {
@@ -44,6 +47,9 @@ func PrintTerme() {
 	}
 
 	fmt.Println("2. Term")
+	for i := range values {
+		term2(values[i])
+	}
 
 	fmt.Println("3. Term")
 
