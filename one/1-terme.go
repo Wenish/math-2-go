@@ -40,7 +40,7 @@ func term5(x float64) {
 	fmt.Println()
 }
 
-func PrintTerme() {
+func printTerme() {
 	var values = [5]float64{-2, 1.0 / 2.0, 1, 2, 4}
 	fmt.Println("-------------------------------------------")
 	fmt.Println("1 Terme")
