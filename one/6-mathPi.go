@@ -20,7 +20,7 @@ func printMathPi() {
 	A := 3.0
 	B := 3.2
 
-	/* THIS IS SLOW AF
+	/* THIS IS SLOW AF AND DOSNT WORK
 	for A != B {
 		C := (A + B) / 2
 
