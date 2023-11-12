@@ -9,10 +9,10 @@ func printWurzeln() {
 	fmt.Println("-------------------------------------------")
 	fmt.Println("3 Wurzeln")
 
-	var gleichung bool
+	var equation bool
 
-	gleichung = math.Pow(math.Sqrt(2), 2) == 2
+	equation = math.Pow(math.Sqrt(2), 2) == 2
 
-	fmt.Println("Die Gleichung ist in go folgendes:", gleichung)
+	fmt.Println("Die Gleichung ist in go folgendes:", equation)
 	fmt.Println("-------------------------------------------")
 }
