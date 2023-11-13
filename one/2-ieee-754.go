@@ -15,7 +15,7 @@ func printIeee754() {
 		myFloat := float32(values[i])
 		bits := math.Float32bits(myFloat)
 		fmt.Printf("Float32: %f\n", myFloat)
-		fmt.Printf("Bitmuster: %b\n", bits)
+		fmt.Printf("Bitmuster: %032b\n", bits)
 		fmt.Println()
 	}
 	fmt.Println("Bitfolgen zu float32")
