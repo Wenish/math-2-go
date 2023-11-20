@@ -10,6 +10,8 @@ func printNull() {
 	fmt.Println("5 Null")
 
 	var amount = 10 // Bei der 1024. teilung währe das resultat false
+
+	// TODO: algorythmus der dann bei 0 automatisch stoppt
 	for i := 1; i <= amount; i++ {
 		var resultTry = 1.0 / math.Pow(2.0, float64(i))
 		fmt.Println(i, "try:", resultTry, ">", 0, resultTry > 0)
