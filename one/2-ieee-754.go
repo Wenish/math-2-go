@@ -21,12 +21,8 @@ func printIeee754() {
 	fmt.Println("Bitfolgen zu float32")
 	fmt.Println()
 
-	// 0 -> binärzahl float32 0000 0000 0000 0000 0000 0000 0000 0000
-	// 1024 -> binärzahl float32 0000 0000 0000 0000 0000 0100 0000 0000
-	// 1000000  -> binärzahl float32 0000 0000 0000 1111 0100 0010 0100 0000
-
-	// TODOOOOOO: binärzahl zu float32 printen
+	fmt.Printf("Zahl: -0 von Bitmuster zu Float32: %f\n", math.Float32frombits(0b_1_0000_0000_000_0000_0000_0000_0000_0000))
+	fmt.Printf("Zahl: 1024 von Bitmuster zu Float32: %f\n", math.Float32frombits(0b_0_1000_1001_000_0000_0000_0000_0000_0000))
+	fmt.Printf("Zahl: 1000000 von Bitmuster zu Float32: %f\n", math.Float32frombits(0b_0_1001_0010_111_0100_0010_0100_0000_0000))
 	fmt.Println("-------------------------------------------")
-
-	fmt.Printf("Float32: %f\n", math.Float32frombits(0b_1100_0000_0000_0000_0000_0000_0000_0000))
 }
