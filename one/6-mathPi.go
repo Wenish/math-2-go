@@ -17,22 +17,31 @@ func printMathPi() {
 	// 5. Falls π ∈ [C, B] → neues Intervall ist [C, B]
 	// 6. Gehe zu Punkt 2
 
-	A := 3.0
-	B := 3.2
+	A := 2.0
+	B := 1.0
 
-	/* THIS IS SLOW AF AND DOSNT WORK
-	for A != B {
-		C := (A + B) / 2
+	C := 4.0
+	D := 1.0
 
-		if math.Pi <= C {
-			B = C
+	X := A / B
+	Y := C / D
+
+	for math.Abs(X-Y) > 0.000000000000001 {
+		top := A + C
+		bottom := B + D
+		result := top / bottom
+
+		if math.Pi <= result {
+			C = top
+			D = bottom
+			Y = C / D
 		} else {
-			A = C
+			A = top
+			B = bottom
+			X = A / B
 		}
-
-		fmt.Println("[", A, C, "]")
 	}
-	*/
-	fmt.Printf("π liegt im Intervall [%.64f, %.64f]\n", A, B)
+
+	fmt.Printf("π liegt im Intervall [%.64f, %.64f]\n", X, Y)
 	fmt.Println("-------------------------------------------")
 }
