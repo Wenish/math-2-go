@@ -1,3 +1,15 @@
+/*
+Durch Rundungsfehler innerhalb der Berechung führt es dazu dass die 2 Terme nicht mehr gleich sind.
+
+Beide Typen float64 und int64 belegen 64 Bits im Speicher.
+
+Der Unterschied ist, dass int64 nur Ganzzahlen ohne Dezimalstellen darstellt.
+
+Float64 kann Gleitkommazahlen mit Hilfe des IEEE 754-Standard darstellen.
+Float64 hat eine begrenzte Genauigkeit. Deswegen können Rundungsfehler bei der Berechnung auftreten.
+Wenn man eine höhere Genauigkeit brauch, muss man eine Library einsetzen.
+*/
+
 package one
 
 import (
